@@ -1,10 +1,10 @@
 from PIL import Image, ImageDraw, ImageFont
-import cs50
+
  
 #image color, asking the text, and font
 img = Image.new('RGB', (100, 30), color = (73, 109, 137))
 
-text = get_string("text:")
+text = input("text:")
  
 fnt = ImageFont.truetype('/Library/Fonts/Arial.ttf', 15)
 d = ImageDraw.Draw(img)
