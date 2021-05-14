@@ -1,6 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
-
-from cs50 import get_string
+import cs50
  
 #image color, asking the text, and font
 img = Image.new('RGB', (100, 30), color = (73, 109, 137))
