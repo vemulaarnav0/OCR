@@ -1,3 +1,4 @@
+import textwrap
 import PIL
 from PIL import ImageFont
 from PIL import Image
@@ -33,7 +34,7 @@ def text2png(text, fullpath, color = "#000", bgcolor = "#FFF", fontfullpath = No
 			lines.append( line[1:] ) #slice the white space in the begining of the line
 			line = u""
 
-			#TODO: handle too long words at this point
+			list = textwrap.wrap(text, width=30)
 			line += ' ' + word #for now, assume no word alone can exceed the line width
 
  if len(line) != 0:
