@@ -1,5 +1,5 @@
+from PIL import Image
+myImage = Image.open("your_image_here");
+myImage.show();
 
-from pil import Image
-image=
-images=Image.open(f"read_only/{image}")
-Image(display)
+ return render_template("ocr.html")
