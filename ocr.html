@@ -1,10 +1,28 @@
 <!DOCTYPE html>
   <html>
   <form id='formName' name='formName' onsubmit='redirect();return false;'>
-    <div class="style7">
-      <input type='text' id='userInput' name='userInput' value=''>
-      <input type="image" name="submit" src="https://jekyllcodex.org/uploads/grumpycat.jpg" border="0" alt="Submit" style="width: 50px;" />
+    <div class="container-fluid login-container">
+    <div class="row">
+        <form (ngSubmit)="login('da')">
+            <div class="col-md-4">
+                    <div class="login-text">
+                        Login
+                    </div>
+                    <div class="form-signin">
+                            <input type="text" class="form-control" placeholder="Email" required>
+                            <input type="password" class="form-control" placeholder="Password" required>
+                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="login-go-div">
+                    <input type="image" src="../../../assets/images/svg/login-go-initial.svg" class="login-go"
+                         onmouseover="this.src='../../../assets/images/svg/login-go.svg'"
+                         onmouseout="this.src='../../../assets/images/svg/login-go-initial.svg'"/>
+                </div>
+            </div>
+        </form>
     </div>
+</div>
   </form> 
 
   </html>
