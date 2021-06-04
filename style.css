@@ -1,7 +1,4 @@
-body
-{
-  background-color: #e5e5f7;
-    opacity: 0.8;
-    background-size: 20px 20px;
-    background-image:  repeating-linear-gradient(0deg, #484517, #484517 1px, #e5e5f7 1px, #e5e5f7);
-{
+background-color: #d7d7df;
+opacity: 0.8;
+background-size: 26px 26px;
+background-image:  repeating-linear-gradient(0deg, #7e7d53, #7e7d53 1.3px, #d7d7df 1.3px, #d7d7df);
